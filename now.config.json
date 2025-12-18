@@ -1,0 +1,6 @@
+{
+  "scope": "x_460666_sdk",
+  "scopeId": "ef08ecfe2e704fac97f294c43c299cd4",
+  "name": "Now SDK Example App",
+  "tsconfigPath": "./src/server/tsconfig.json"
+}
