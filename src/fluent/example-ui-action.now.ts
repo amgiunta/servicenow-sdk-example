@@ -14,5 +14,5 @@ export const exampleUiAction = UiAction({
         showButton: true,
         style: 'primary'
     },
-    script: Now.include('../server/example-set-name.js')    
+    script: Now.include('../server/example-set-name.js')
 })
