@@ -15,7 +15,7 @@
     "include": [
         "./**/*.ts",
         "../../@types/**/*.modules.d.ts"
-    ],
+, "example-set-name.js"    ],
     "exclude": [
         "**/*.now.ts"
     ]

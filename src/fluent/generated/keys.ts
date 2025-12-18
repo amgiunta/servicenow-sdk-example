@@ -17,9 +17,17 @@ declare global {
                         table: 'sys_script_client'
                         id: '2e6252f172fc4581ac50ad475bf43eee'
                     }
+                    example_ui_action_a: {
+                        table: 'sys_ui_action'
+                        id: 'cee0cecde7184bdeafb154708dbdb47c'
+                    }
                     package_json: {
                         table: 'sys_module'
                         id: 'cfbd74df6ef244a288696531cb24e2cd'
+                    }
+                    'src_server_example-set-name_js': {
+                        table: 'sys_module'
+                        id: '49b23ebc841a4c3ca4d82f822d1afe1b'
                     }
                     src_server_script_ts: {
                         table: 'sys_module'
@@ -115,6 +123,19 @@ declare global {
                             name: 'x_460666_sdk_table_b'
                             element: 'name'
                             language: 'en'
+                        }
+                    },
+                    {
+                        table: 'sys_ui_action_role'
+                        id: '7d6ca0076b73480490b1d33b4a5466ca'
+                        key: {
+                            sys_ui_action: 'cee0cecde7184bdeafb154708dbdb47c'
+                            sys_user_role: {
+                                id: '97908e34b2ea42b49d87a68e37560a19'
+                                key: {
+                                    name: 'itil'
+                                }
+                            }
                         }
                     },
                     {
